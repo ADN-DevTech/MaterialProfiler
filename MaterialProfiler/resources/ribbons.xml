@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RibbonTab ribbons="Assembly"
+           internalName="id_TabTools" 
+           displayName="Tools">
+  
+    <RibbonPanel internalName="id_PanelP_ToolsMaterial" 
+                 displayName="">
+
+      <Button internalName="Autodesk.MaterialProfiler.MaterialProfilerCmd" 
+              useLargeIcon="true" 
+              isInSlideout="false" 
+              targetControlBefore="AdjustAppearanceCmd"/>
+
+      <Separator isInSlideout="false"
+                 targetControlAfter="Autodesk.MaterialProfiler.MaterialProfilerCmd"/>
+
+    </RibbonPanel>
+  
+</RibbonTab>

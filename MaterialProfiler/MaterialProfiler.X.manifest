@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+  <assemblyIdentity name="MaterialProfiler" version="1.0.0.0"></assemblyIdentity>
+
+  <clrClass clsid="{59f8f264-156e-4e54-b9c1-57a18ac60a96}" 
+		progid="MaterialProfiler.StandardAddInServer" 
+		threadingModel="Both" 
+		name="MaterialProfiler.StandardAddInServer" 
+		runtimeVersion=""></clrClass>
+
+  <file name="MaterialProfiler.dll" hashalg="SHA1"></file>
+
+</assembly>
